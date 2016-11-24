@@ -64,17 +64,17 @@ p {
 	color:orange;
 	}
 	
-	table {
+table {
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
 }
 
 th, td {
     text-align: left;
-    padding: 8px;
+    padding: 15px;
     border-bottom: 1px solid #000000;
-	color: white;
 }
+
 </style>
 </head>
 <body>
@@ -84,6 +84,7 @@ th, td {
 <img src="cat.gif" style="width:420px;height:250px;">
 <img src="head.gif" style="width:420px;height:250px;">
 <img src="pikachu.gif" style="width:420px;height:250px;">
+
 
 <table>
   <tr>
@@ -99,6 +100,8 @@ th, td {
     <td><p><b><a href="www.youtube.com" target="_blank">Youtube</a></b></p></td>
   </tr>
 </table>
+
+
 
 <h1>Ask anything about myself.</h1>
 <p id="demo"></p>
@@ -120,6 +123,7 @@ th, td {
 	<td><button type="button" onclick="myFunction5()">Try it</button></td>
   </tr>
 </table>
+
 
 
 <?php
