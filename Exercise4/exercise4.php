@@ -45,7 +45,10 @@ div {
 }
 
 body {
-background-image: url("bg.jpg")
+    background: url("background.jpg");
+    background-size: 2500px 2500px;
+    background-repeat: no-repeat;
+    padding-top: 40px;
 }
 
 a {
@@ -66,8 +69,11 @@ th, td {
 </head>
 <body>
 
-<h1>Exercise 2</h1>
-<p>Welcome to my Home Page.</p>
+<h1><center>Exercise 3</h1>
+<p><center>Welcome to my Home Page.</p>
+<img src="cat.gif" style="width:443px;height:250px;">
+<img src="head.gif" style="width:443px;height:250px;">
+<img src="pikachu.gif" style="width:443px;height:250px;">
 
 <div>
 <table>
