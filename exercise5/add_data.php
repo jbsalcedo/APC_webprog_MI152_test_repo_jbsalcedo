@@ -10,8 +10,10 @@ if(isset($_POST['btn-save']))
  $gender = $_POST['gender'];
  $cp_number = $_POST['cp_number'];
  // variables for input data
+ 
 
  // sql query for inserting data into database
+ 
  $sql_query = "INSERT INTO users(name,nickname,email,address,gender,cp_number) VALUES('$name','$nickname','$email','$address', '$gender','$cp_number')";
  // sql query for inserting data into database
  
