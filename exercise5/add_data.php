@@ -10,7 +10,6 @@ if(isset($_POST['btn-save']))
  $gender = $_POST['gender'];
  $cp_number = $_POST['cp_number'];
  // variables for input data
- 
 
  // sql query for inserting data into database
  
@@ -47,10 +46,10 @@ if(isset($_POST['btn-save']))
 </head>
 <body>
 <center>
-
+<body style= 'background-image: url("background.png")'>
 <div id="header">
  <div id="content">
-    <label>CRUD Operations With PHP and MySql - By Cleartuts</label>
+    <label>Welcome</label>
     </div>
 </div>
 <div id="body">

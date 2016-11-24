@@ -10,8 +10,10 @@ if(isset($_GET['delete_id']))
 }
 // delete condition
 ?>
- <a href = "mypage.php"> <center><h2> Back to main page</h2></a>
-
+ <a href = "mypage.php" > <center><h2> Back to main page</h2></a>
+ 
+  <body style= 'background-image: url("background.png")'>
+  
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -40,7 +42,7 @@ function delete_id(id)
 
 <div id="header">
  <div id="content">
-    <label>CRUD Operations With PHP and MySql - <a href="http://cleartuts.blogspot.com" target="_blank">By Cleartuts</a></label>
+    <label>Welcome <a href="http://cleartuts.blogspot.com" target="_blank"></a></label>
     </div>
 </div>
 
