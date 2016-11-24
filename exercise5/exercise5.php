@@ -23,7 +23,7 @@ function myFunction() {
 .error {color: #FF0000;}
 
 h1 {
-	font-size: 30px;
+	font-size: 50px;
 	}
 
 p.serif {
@@ -45,17 +45,16 @@ div {
 }
 
 body {
-background-image: url("bg.jpg")
+    background: url("background.png");
+    background-size: 2500px 2500px;
+    background-repeat: no-repeat;
+    padding-top: 40px;
 }
 
 a {
 	color: red;
 	}
 	
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
 
 th, td {
     padding: 10px;
@@ -66,10 +65,13 @@ th, td {
 </head>
 <body>
 
-<h1>Exercise 2</h1>
-<p>Welcome to my Home Page.</p>
+<h1><center>Exercise 5</h1>
+<p><center>Welcome to my Home Page.</p>
+<img src="cat.gif" style="width:420px;height:250px;">
+<img src="head.gif" style="width:420px;height:250px;">
+<img src="pikachu.gif" style="width:420px;height:250px;">
 
-<div>
+
 <table>
   <tr>
     <th>Firstname</th>
@@ -84,12 +86,12 @@ th, td {
     <td><p><b><a href="www.youtube.com" target="_blank">Youtube</a></b></p></td>
   </tr>
 </table>
-</div>
+
 
 <h1>Ask anything about myself.</h1>
 <p id="demo"></p>
 
-<div>
+
 <table>
   <tr>
     <th>What is my full name?</th>
@@ -106,7 +108,7 @@ th, td {
 	<td><button type="button" onclick="myFunction5()">Try it</button></td>
   </tr>
 </table>
-</div>
+
 
 <?php
 // define variables and set to empty values

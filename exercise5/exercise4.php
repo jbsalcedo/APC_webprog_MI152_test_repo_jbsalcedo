@@ -1,6 +1,5 @@
 <?php
 include_once 'dbconfig.php';
-
 // delete condition
 if(isset($_GET['delete_id']))
 {
@@ -10,8 +9,7 @@ if(isset($_GET['delete_id']))
 }
 // delete condition
 ?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <script>
@@ -36,7 +34,7 @@ function myFunction() {
 .error {color: #FF0000;}
 
 h1 {
-	font-size: 30px;
+	font-size: 50px;
 	}
 
 p.serif {
@@ -49,7 +47,7 @@ p {
 	}
 	
 div {
-    border: 5px solid black;
+    border: 2pxpx solid black;
     background-color: #F2F3F4;
     padding-top: 20px;
     padding-right: 20px;
@@ -58,31 +56,31 @@ div {
 }
 
 body {
-background-image: url("background.jpg")
+    background: url("background.png");
+    background-size: 2500px 2500px;
+    background-repeat: no-repeat;
+    padding-top: 40px;
 }
 
 a {
 	color: red;
 	}
 	
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
 
 th, td {
-    padding: 15px;
+    padding: 10px;
     text-align: left;
-    border-bottom: 3px solid #000000;
-	font-size: 20px;
+    border-bottom: 2px solid #000000;
 }
 </style>
 </head>
 <body>
 
-<h1>Exercise 5</h1>
-<p>Welcome to my Home Page.</p>
-
+<h1><center>Exercise 5</h1>
+<p><center>Welcome to my Home Page.</p>
+<img src="cat.gif" style="width:420px;height:250px;">
+<img src="head.gif" style="width:420px;height:250px;">
+<img src="pikachu.gif" style="width:420px;height:250px;">
 
 <table>
   <tr>
@@ -98,7 +96,6 @@ th, td {
     <td><p><b><a href="www.youtube.com" target="_blank">Youtube</a></b></p></td>
   </tr>
 </table>
-
 
 <h1>Ask anything about myself.</h1>
 <p id="demo"></p>
@@ -238,7 +235,6 @@ function delete_id(id)
  ?>
     </table>
     </div>
-
 
 
 </body>
