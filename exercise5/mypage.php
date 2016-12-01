@@ -78,28 +78,14 @@ th, td {
 </style>
 </head>
 <body>
+<a href="mypage.php" target="_self">HOME</a> |
+<a href="info.php" target="_self">INFO</a> |
 
 <h1><center>Exercise 5</h1>
 <p><center>Welcome to my Home Page.</p>
 <img src="cat.gif" style="width:420px;height:250px;">
 <img src="head.gif" style="width:420px;height:250px;">
 <img src="pikachu.gif" style="width:420px;height:250px;">
-
-
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Nickname</th>
-    <th>Interest</th>
-	<th>Favorite Website</th>
-  </tr>
-  <tr>
-    <td>John Dave B. Salcedo</td>
-    <td>Dave</td>
-	<td><img src="computer.png" alt="computer" style="width:150px;height:100px;"></td>
-    <td><p><b><a href="www.youtube.com" target="_blank">Youtube</a></b></p></td>
-  </tr>
-</table>
 
 
 
