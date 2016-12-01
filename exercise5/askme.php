@@ -18,7 +18,7 @@ function myFunction() {
     document.getElementById("demo").innerHTML = "Anything except vegetables.";
 	}
 </script>
-</script>
+
 <style>
 
 .error {color: #FF0000;}
@@ -55,11 +55,11 @@ a {
 </style>
 </head>
 <body>
+<h1><center>Exercise 5</h1>
 <center>
 <a href="mypage.php" target="_self">HOME</a> |
 <a href="info.php" target="_self">INFO</a> |
 <a href="askme.php" target="_parent">ASK ME</a>  </center>
-<h1><center>Exercise 5</h1>
 <p><center>Welcome to my Home Page.</p>
 
 <img src="cat.gif" style="width:420px;height:250px;">
