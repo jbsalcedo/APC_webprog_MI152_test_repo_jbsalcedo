@@ -27,7 +27,7 @@ if(isset($_POST['btn-update']))
   ?>
   <script type="text/javascript">
   alert('Data Are Updated Successfully');
-  window.location.href='index.php';
+  window.location.href='mypage.php';
   </script>
   <?php
  }
