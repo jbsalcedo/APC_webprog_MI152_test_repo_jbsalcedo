@@ -38,14 +38,6 @@ h1 {
 	 color: white;
 	}
 	
-div {
-    border: 2pxpx solid black;
-    background-color: #F2F3F4;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
 
 body {
     background: url("background.png");
@@ -78,37 +70,17 @@ th, td {
 </style>
 </head>
 <body>
+<center>
 <a href="mypage.php" target="_self">HOME</a> |
 <a href="info.php" target="_self">INFO</a> |
-
+<a href="askme.php" target="_parent">ASK ME</a>  </center>
 <h1><center>Exercise 5</h1>
-<p><center>Welcome to my Home Page.</p>
+<p><center>Welcome to my Home Page.</p>|
 <img src="cat.gif" style="width:420px;height:250px;">
 <img src="head.gif" style="width:420px;height:250px;">
 <img src="pikachu.gif" style="width:420px;height:250px;">
 
 
-
-<h1>Ask anything about myself.</h1>
-<p id="demo"></p>
-
-
-<table>
-  <tr>
-    <th>What is my full name?</th>
-    <th>Where do I lived?</th>
-    <th>How old I am?</th>
-	<th>What are the things that interest me?</th>
-	<th>What are my favorite foods?</th>
-  </tr>
-  <tr>
-    <td><button type="button" onclick="myFunction()">Try it</button></td>
-    <td><button type="button" onclick="myFunction2()">Try it</button></td>
-	<td><button type="button" onclick="myFunction3()">Try it</button></td>
-    <td><button type="button" onclick="myFunction4()">Try it</button></td>
-	<td><button type="button" onclick="myFunction5()">Try it</button></td>
-  </tr>
-</table>
 
 
 
@@ -229,6 +201,7 @@ function delete_id(id)
     </table>
     </div>
 
+<h4>-Dave Salcedo-</h4>
 
 </body>
 </html>
