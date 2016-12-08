@@ -45,7 +45,7 @@ body {
 th, td {
     padding: 10px;
     text-align: left;
-    border-bottom: 2px solid #000000;
+    border-bottom: 1px solid #000000;
 }
 
 a {
