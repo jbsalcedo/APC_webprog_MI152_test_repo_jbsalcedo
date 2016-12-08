@@ -38,7 +38,6 @@ h1 {
 	 color: white;
 	}
 	
-
 body {
     background: url("background.png");
     background-size: 1900px 1900px;
@@ -67,15 +66,15 @@ th, td {
     border-bottom: 1px solid #000000;
 }
 
-
 </style>
 </head>
 <body>
 <h1><center>Exercise 5</h1>
 <center>
-<a href="index.php" target="_self">HOME</a> |
-<a href="info.php" target="_self">INFO</a> |
-<a href="askme.php" target="_parent">ASK ME</a>  </center>
+<a href  ="index.php" target="_self">Home</a> |
+<a href ="info.php" target="_self">Info</a> |
+<a href ="askme.php" target="_parent">Ask me</a>
+</center>
 <p><center>Welcome to my Home Page.</p>
 <img src="cat.gif" style="width:420px;height:250px;">
 <img src="head.gif" style="width:420px;height:250px;">

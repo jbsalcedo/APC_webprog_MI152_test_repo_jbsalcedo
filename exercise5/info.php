@@ -18,13 +18,12 @@ p {
 	color: red;
 	}
 	
-
 body {
     background: url("background.png");
-    background-size: 2500px 2500px;
+    background-size: 1900px 1900px;
     background-repeat: no-repeat;
     padding-top: 40px;
-}	
+}
 
 th, td {
     padding: 10px;
@@ -41,9 +40,9 @@ a {
 <body>
 <h1><center>Exercise 5</h1>
 <center>
-<a href="index.php" target="_self">HOME</a> |
-<a href="info.php" target="_self">INFO</a> |
-<a href="askme.php" target="_parent">ASK ME</a>  </center>
+<a href  ="index.php" target="_self">Home</a> |
+<a href ="info.php" target="_self">Info</a> |
+<a href ="askme.php" target="_parent">Ask me</a>
 <p><center>Welcome to my Home Page.</p>
 
 <img src="cat.gif" style="width:420px;height:250px;">
