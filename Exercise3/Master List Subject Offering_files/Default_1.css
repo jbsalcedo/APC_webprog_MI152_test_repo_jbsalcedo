@@ -1,0 +1,118 @@
+
+.fakeLink {
+	font-size: 11px;
+	font-family: sans, verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color: #0000FF;	
+}
+.blue {
+    background-color: #3399FF;
+}
+.bold {
+    font-weight: bold;   
+}
+.listText {
+	font-family: sans, verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #ffffff;
+}
+.listTextAlt {
+	font-family: sans, verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #f6f6f6;
+}
+.listHeaderCell {
+	padding: 4px;
+}
+.listCell {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 1px;
+}
+.pageHeader {
+    font-family : sans, verdana,arial ;
+    font-weight : bold;
+    color : #00ae29;
+    font-size : 14px;
+   	text-transform: capitalize;
+}
+.pageHeaderAlt {
+    font-family : sans, verdana,arial ;
+    font-weight : bold;
+    color : #660000;
+    font-size : 14px;
+}
+.red{
+	background-color: #FF0000;
+}
+select {
+    font-size: 10px;
+}
+.systemMessage{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #AA0000;
+}
+table {
+	font-family: sans, verdana;
+	font-size: 12px;
+    border-collapse: separate;
+    empty-cells: show;    
+	border-color: #f1f1f1;
+}
+.tableContent {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top: medium double #33abff;
+	border-right: medium solid #33abff;
+	border-bottom: medium solid #33abff;
+	border-left: medium double #33abff;
+    background-color :#efefef;
+    font-family : sans, verdana , arial;
+    font-size : 12px;
+}
+.tableCollapse {
+	border-collapse: collapse;
+	border-color: #f1f1f1;
+}
+table.menuBorder {
+	border-collapse: collapse;
+	border-color: #f1f1f1;
+}
+td.menuHeader {
+	padding: 0px;
+}
+td.menuItems {
+	text-transform: capitalize;
+	width: 180px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+td.label {
+	text-transform: capitalize;
+}
+.taskListLink {
+    background-color :#999999;
+    font-family : sans, verdana;
+    color : white;
+}
+.taskListDescription {
+    background-color :#CCCCCC;
+    font-family : sans, verdana;
+    font-size : 11px;
+    color : black;
+}
+.white {
+	background-color: #FFFFFF;
+}
+.violet {
+    background-color: #6666CC;
+}

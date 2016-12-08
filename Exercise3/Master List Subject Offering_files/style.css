@@ -1,0 +1,113 @@
+html {
+/*	font-family: "OpenSans",Helvetica,Arial,sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;*/
+    	height:100%;
+    	width: 100%;
+}
+/*CSS FOR THE BODY*/
+body{
+	background-color: #ffffff !important;
+}
+
+/*CSS FOR CUSTOM HEADER*/
+#header{	
+	background-image: url(../images/jen.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: #ffffff;
+	padding-bottom: 10px;
+}
+#logo{
+	padding-top: 10px;
+	width:110px;
+	height: 110px
+	vertical-align: center;
+}
+
+/*MODULE CLASSES*/
+.module-body{
+}
+.module{
+	overflow: visible;
+	position: relative;
+	text-align: center;
+	min-height: 250px;
+	margin-top: 20px;
+	padding-right: 0px !important;
+}
+.module a{
+	text-decoration: none;
+}
+.module img{
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	top: -2.3em;
+	height: 80px;
+	width: 80px;
+	opacity: 0.95;
+	border-radius: 50%;
+	border: 5px solid #ffffff;
+}
+/*#badge:hover{
+	position: absolute; 
+	top: -1.5em;
+	-webkit-transition: 0.2s ease-in-out;
+}*/
+.module p{
+	font-size:12px;
+	color: #333333;
+}
+.module-content{
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	border-radius: 5px 5px 5px 5px;
+}
+
+.module-content:hover .move-me {
+  	position: absolute; 
+	top: -1.5em;
+	-webkit-transition: 0.2s ease-in-out
+}
+
+.module-header{
+	background: url(../images/congruent_pentagon1.png) center no-repeat;
+	background-size: cover;
+	height: 65px;
+	border-radius: 5px 5px 0px 0px;
+}
+.module-details{
+	line-height: 15px;
+	margin-right: 0px;
+	padding: 0px 10px 15px 10px;
+	color: #585a5b;
+	height: 158px;
+	overflow: hidden;
+}
+
+#logout-button{
+	margin-bottom: 50px;
+}
+
+/*FOOTER*/
+footer{
+	height: 40px;
+}
+.glyphicon {
+	font-size: 30em;
+	margin: 50px;
+}
+#menu{
+    margin-bottom: 30px;
+    background-color: #e4e4e4;
+}
+.fixed-nav{
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+z-index: 999;
+}
+.topmargin{
+margin-top: 50px;
+}

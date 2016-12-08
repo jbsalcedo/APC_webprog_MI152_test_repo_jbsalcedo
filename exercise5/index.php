@@ -41,7 +41,7 @@ h1 {
 
 body {
     background: url("background.png");
-    background-size: 2500px 2500px;
+    background-size: 1900px 1900px;
     background-repeat: no-repeat;
     padding-top: 40px;
 }
@@ -67,6 +67,7 @@ th, td {
     border-bottom: 1px solid #000000;
 }
 
+
 </style>
 </head>
 <body>
@@ -75,15 +76,10 @@ th, td {
 <a href="index.php" target="_self">HOME</a> |
 <a href="info.php" target="_self">INFO</a> |
 <a href="askme.php" target="_parent">ASK ME</a>  </center>
-<p><center>Welcome to my Home Page.</p>|
+<p><center>Welcome to my Home Page.</p>
 <img src="cat.gif" style="width:420px;height:250px;">
 <img src="head.gif" style="width:420px;height:250px;">
 <img src="pikachu.gif" style="width:420px;height:250px;">
-
-
-
-
-
 <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
