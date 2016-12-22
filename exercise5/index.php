@@ -156,8 +156,6 @@ function delete_id(id)
 <body>
 <center>
 
-
-
     <table align="center">
     <tr>
 	
