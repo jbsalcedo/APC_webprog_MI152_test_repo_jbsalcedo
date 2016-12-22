@@ -37,29 +37,24 @@ h1 {
 	font-size: 50px;
 	 color: white;
 	}
-	
 body {
     background: url("background.png");
     background-size: 1900px 1900px;
     background-repeat: no-repeat;
     padding-top: 40px;
 }
-
 a {
 	font-size: 20px;
 	color: red;
 	}
-	
 p {
 	font-size: 20px;
 	color:orange;
 	}
-	
 table {
     border-collapse: collapse;
     width: 50%;
 }
-
 th, td {
     text-align: left;
     padding: 15px;
@@ -94,7 +89,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $nameErr = "Only letters and white space allowed"; 
     }
   }
-  
   if (empty($_POST["email"])) {
     $emailErr = "Email is required";
   } else {
@@ -104,7 +98,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $emailErr = "Invalid email format"; 
     }
   }
-    
   if (empty($_POST["website"])) {
     $website = "";
   } else {
@@ -114,13 +107,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $websiteErr = "Invalid URL"; 
     }
   }
-
   if (empty($_POST["comment"])) {
     $comment = "";
   } else {
     $comment = test_input($_POST["comment"]);
   }
-
   if (empty($_POST["gender"])) {
     $genderErr = "Gender is required";
   } else {
@@ -158,9 +149,7 @@ function delete_id(id)
 
     <table align="center">
     <tr>
-	
     <th colspan="8"><center><a href="add_data.php">Add data here.</a></th>
-    
 	</tr>
    <th>Name</th>
     <th>Nickname</th>
@@ -193,7 +182,6 @@ function delete_id(id)
  ?>
     </table>
     </div>
-
 <h4>-Dave Salcedo-</h4>
 
 </body>
