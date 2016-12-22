@@ -8,6 +8,7 @@ parent::__construct();
 $this->load->model('users_model');
 }
 public function index(){
+	
 	$data['user_list'] = $this->users_model->get_all_users();
 	$this->load->view('Users_view',$data);
 	
@@ -28,6 +29,7 @@ $this->load->view('Users_add');
 }
 public function insert_users_db()
 {
+	
 $udata['name'] = $this->input->post('name');
 $udata['nickname'] = $this->input->post('nickname');
 $udata['email'] = $this->input->post('email');
